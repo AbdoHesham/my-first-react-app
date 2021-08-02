@@ -37,6 +37,16 @@
     }
 }
 
-li {
+li ,li:hover {
     list-style-type: none;
+    text-decoration: none;
+    color: #282c34;
 }
+
+/* 
+.navlink{
+  background-color: #282c34;
+  width: auto;
+  border: 2px solid black;
+  border-radius: 4px;
+} */

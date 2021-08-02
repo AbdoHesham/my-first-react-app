@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 // import PropTypes from 'prop-types'
 class Product extends Component {
 //   state = {
@@ -33,6 +34,12 @@ class Product extends Component {
           >
             -
           </button>
+
+          <span>
+            <Link to={`/products/${fruit.id}`}> show details</Link>
+          </span>
+
+          
         </div>
       </div>
     );
